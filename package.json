@@ -1,0 +1,53 @@
+{
+  "name": "aret",
+  "version": "0.0.1",
+  "description": "An Awesome Rich Editor of Text for React",
+  "main": "build/aret.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HombreHumor/aret.git"
+  },
+  "keywords": [
+    "react",
+    "text-editor",
+    "editor",
+    "aret",
+    "richtext",
+    "rich editor",
+    "rich text editor",
+    "rte",
+    "html",
+    "text",
+    "editor",
+    "wysiwyg"
+  ],
+  "author": "Igor Kramar (@hombrehumor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HombreHumor/aret/issues"
+  },
+  "homepage": "https://github.com/HombreHumor/aret#readme",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-rc || ^16.0.0-rc || ^16.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0-rc || ^16.0.0-rc || ^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-private-methods": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "style-loader": "^0.20.3",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3"
+  }
+}
